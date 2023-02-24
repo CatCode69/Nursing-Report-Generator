@@ -29,6 +29,11 @@ article {
 }
 
 @media print {
+  @page {
+    size: A4 portrait !important;
+    margin: 0 !important;
+  }
+
   header,
   main {
     display: none;
